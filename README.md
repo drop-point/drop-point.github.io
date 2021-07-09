@@ -1,3 +1,4 @@
+[![CI](https://github.com/drop-point/drop-point-bridgetown/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/drop-point/drop-point-bridgetown/actions/workflows/ci.yml)
 [![CD](https://github.com/drop-point/drop-point-bridgetown/actions/workflows/cd.yml/badge.svg?branch=main)](https://github.com/drop-point/drop-point-bridgetown/actions/workflows/cd.yml)
 
 
@@ -20,6 +21,9 @@ yarn start
 
 # build & deploy to production
 yarn deploy
+
+# test
+yarn test
 
 # load the site up within a Ruby console (IRB)
 bundle exec bridgetown console

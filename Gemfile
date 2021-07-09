@@ -19,3 +19,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 # Happy Bridgetowning!
 
 gem 'bridgetown', '~> 0.21.0'
+
+group :test, optional: true do
+  gem 'minitest'
+  gem 'minitest-profile'
+  gem 'minitest-reporters'
+  gem 'nokogiri'
+  gem 'rails-dom-testing'
+  gem 'shoulda'
+end
