@@ -1,3 +1,6 @@
+[![CD](https://github.com/drop-point/drop-point-bridgetown/actions/workflows/cd.yml/badge.svg?branch=main)](https://github.com/drop-point/drop-point-bridgetown/actions/workflows/cd.yml)
+
+
 # Bridgetown Website README
 
 Welcome to your new Bridgetown website! You can update this README file to provide additional context and setup information for yourself or other contributors.
